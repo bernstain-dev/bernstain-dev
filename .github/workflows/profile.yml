@@ -1,0 +1,48 @@
+name: Refresh profile telemetry
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '23 2 * * *'
+  push:
+    paths:
+      - 'scripts/build_profile.py'
+      - '.github/workflows/profile.yml'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: profile-telemetry
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Check out profile
+        uses: actions/checkout@v4
+
+      - name: Prepare Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Generate profile assets
+        env:
+          GH_TOKEN: ${{ github.token }}
+          PROFILE_OWNER: ${{ github.repository_owner }}
+        run: python scripts/build_profile.py --username "$PROFILE_OWNER"
+
+      - name: Commit changed assets
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/fullstack-banner.svg assets/github-stats.svg
+          if git diff --cached --quiet; then
+            echo "Assets are already current."
+          else
+            git commit -m "Refresh public profile telemetry"
+            git push
+          fi
