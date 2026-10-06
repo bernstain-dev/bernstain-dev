@@ -32,6 +32,13 @@ I'm **Bernstain O. Fangon**, a BSIT student building across the full stack. My p
 
 <p align="center">
   <img src="assets/github-stats.svg" width="100%" alt="GitHub public profile statistics. The initial card waits for the first GitHub Actions update." />
+
+### Technologies I work with
+
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=react,ts,js,tailwind,nodejs,express,postgres,supabase,mysql,php,python,git&theme=dark&perline=6"
+       alt="React, TypeScript, JavaScript, Tailwind CSS, Node.js, Express, PostgreSQL, Supabase, MySQL, PHP, Python, and Git" />
+</p>
 </p>
 
 <sub>Public GitHub data, refreshed by this repository's workflow. These counts describe repository activity; they are not a measure of skill.</sub>
