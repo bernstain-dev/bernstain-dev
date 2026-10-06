@@ -39,6 +39,23 @@ I'm **Bernstain O. Fangon**, a BSIT student building across the full stack. My p
   <img src="https://skillicons.dev/icons?i=react,ts,js,tailwind,nodejs,express,postgres,supabase,mysql,php,python,git&theme=dark&perline=6"
        alt="React, TypeScript, JavaScript, Tailwind CSS, Node.js, Express, PostgreSQL, Supabase, MySQL, PHP, Python, and Git" />
 </p>
+
+### Let's connect
+
+<p align="center">
+  <a href="YOUR_PORTFOLIO_URL">
+    <img src="https://img.shields.io/badge/Portfolio-0B1220?style=for-the-badge&logoColor=54D7F5"
+         alt="Visit my portfolio" />
+  </a>
+  <a href="YOUR_LINKEDIN_URL">
+    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge"
+         alt="Connect on LinkedIn" />
+  </a>
+  <a href="mailto:YOUR_PUBLIC_EMAIL">
+    <img src="https://img.shields.io/badge/Email-0B1220?style=for-the-badge&logo=gmail&logoColor=63E5B5"
+         alt="Email me" />
+  </a>
+</p>
 </p>
 
 <sub>Public GitHub data, refreshed by this repository's workflow. These counts describe repository activity; they are not a measure of skill.</sub>
