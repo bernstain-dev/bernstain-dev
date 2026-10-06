@@ -40,6 +40,18 @@ I'm **Bernstain O. Fangon**, a BSIT student building across the full stack. My p
        alt="React, TypeScript, JavaScript, Tailwind CSS, Node.js, Express, PostgreSQL, Supabase, MySQL, PHP, Python, and Git" />
 </p>
 
+### My contribution trail
+
+<picture>
+  <source media="(prefers-color-scheme: dark)"
+          srcset="https://raw.githubusercontent.com/bernstain-dev/bernstain-dev/output/github-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)"
+          srcset="https://raw.githubusercontent.com/bernstain-dev/bernstain-dev/output/github-snake.svg" />
+  <img alt="Animated snake moving through my GitHub contribution grid"
+       src="https://raw.githubusercontent.com/bernstain-dev/bernstain-dev/output/github-snake.svg"
+       width="100%" />
+</picture>
+
 ### Let's connect
 
 <p align="center">
